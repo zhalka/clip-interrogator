@@ -35,7 +35,7 @@ class Config:
     clip_preprocess = None
 
     # blip settings
-    caption_max_length: int = 32
+    caption_max_length: int = 96
     caption_model_name: Optional[str] = 'blip2-2.7b' # use a key from CAPTION_MODELS or None
     caption_offload: bool = False
 
