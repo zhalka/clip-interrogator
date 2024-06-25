@@ -8,7 +8,7 @@ from clip_interrogator import Config, Interrogator
 class Predictor(BasePredictor):
     def setup(self):
         self.ci = Interrogator(Config(
-            clip_model_name="ViT-L-14/openai",
+            clip_model_name=""ViT-bigG-14/laion2b_s39b_b160k",
             clip_model_path='cache',
             device='cuda:0', 
         ))
